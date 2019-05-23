@@ -296,7 +296,7 @@ https://github.com/t4t5/sweetalert
 	};
 
 	$.fn.startCountDown = function () {
-		this.doCountDown($(this).attr('id'),$.data(this[0], 'diffSecs'), 500);
+		this.doCountDown($(this).attr('id'),$.data(this[0], 'diffSecs'), 500000);
 	};
 
 	$.fn.setCountDown = function (options) {
