@@ -36,7 +36,7 @@ function css_browser_selector(e){var r=e.toLowerCase(),i=function(e){return r.in
 function ncNotice(){
 	var a = location.host,
 		b = "ncodeart",
-		c = 'aga';
+		c = '%cDEMO ONLY NOTICE\n++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\nAUTHOR : NCodeArt\n\nPROJECT : NC-Hold Coming-Soon Page\n\nThis file licensed to NCodeArt - http://themeforest.net/user/ncodeart and it is strictly prohibited to copy or reuse it.\n\nCopyright 2015-2017 NCodeArt\n\nPurchase : #\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++';
 	if (!a.includes(b)) {console.log(c,'font-size: 16px; color: #f00;'); $('html').html(''); return false; } else { return true; }
 	
 }
@@ -300,7 +300,7 @@ https://github.com/t4t5/sweetalert
 	};
 
 	$.fn.setCountDown = function (options) {
-		var targetTime = new Date("September 1, 2019 0:00:00");
+		var targetTime = new Date();
 
 		if (options.targetDate)
 		{
